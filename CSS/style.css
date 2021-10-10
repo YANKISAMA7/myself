@@ -1,0 +1,159 @@
+/* *{background-color: chocolate;} */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap');
+
+body{
+    margin: 0%; 
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 90px; /* 100% = 1em = 1rem = 16px, 90 divided by 16 multiply by 100 = 562.5% */
+    margin-top: 0%;
+    font-family: 'Sacramento', cursive;
+    color: #51050F;
+}
+
+/* p{
+    background-color: salmon;
+}
+
+span{
+    background-color: sandybrown;
+} */
+
+h2{
+    width: 10%;
+    margin: 0 auto 0 auto;
+    font-weight: normal;
+    line-height: 2;
+    color: lightcoral;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: chartreuse;
+}
+
+.top-container{
+    background-color: burlywood;
+    position: relative;
+    padding-top: 50px;
+}
+
+.web{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.computer-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.code-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.computer-discription{
+    clear: left;            /* clear: both/right; (according to what is given in FLOAT) */
+}
+
+.computer-discription, .code-discription{
+    line-height: 3;
+}
+
+hr{
+    border: dotted black 5px;
+    border-bottom: none;   /* =border-top: none: */
+    width: 4%;
+    margin: 100px auto;
+}
+
+.btn {
+    background: #59b5f2;
+    background-image: -webkit-linear-gradient(top, #59b5f2, #1d567a);
+    background-image: -moz-linear-gradient(top, #59b5f2, #1d567a);
+    background-image: -ms-linear-gradient(top, #59b5f2, #1d567a);
+    background-image: -o-linear-gradient(top, #59b5f2, #1d567a);
+    background-image: linear-gradient(to bottom, #59b5f2, #1d567a);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 17px;
+    padding: 4px 10px 5px 12px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ffb082;
+    background-image: -webkit-linear-gradient(top, #ffb082, #f77a4d);
+    background-image: -moz-linear-gradient(top, #ffb082, #f77a4d);
+    background-image: -ms-linear-gradient(top, #ffb082, #f77a4d);
+    background-image: -o-linear-gradient(top, #ffb082, #f77a4d);
+    background-image: linear-gradient(to bottom, #ffb082, #f77a4d);
+    text-decoration: none;
+  }
+
+.buttom-container{
+    background-color: skyblue;
+    padding: 50px 0 20px;
+}
+
+.middle-container{
+    margin: 50px 0 0px 0;
+}
+
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footer-link:hover{
+    color: grey;
+}
+
+.copyright{
+    color: tomato;
+    font-size: 1rem;
+    padding: 20px 0;
+}
+
+
+/* top right buttom left
+top rightleft buttom
+topbuttom rightleft
+all-sides */
